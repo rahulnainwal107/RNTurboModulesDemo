@@ -13,6 +13,7 @@
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A73E9E072D87EB4700236655 /* RCTNativeLocalStorage.mm in Sources */ = {isa = PBXBuildFile; fileRef = A73E9E062D87EB4700236655 /* RCTNativeLocalStorage.mm */; };
+		A79EDAA92D87FBA1006B5D10 /* RCTNativeJailbreakDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79EDAA82D87FBA1006B5D10 /* RCTNativeJailbreakDetector.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNTurboModulesDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73E9E052D87EB4700236655 /* RCTNativeLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeLocalStorage.h; sourceTree = "<group>"; };
 		A73E9E062D87EB4700236655 /* RCTNativeLocalStorage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNativeLocalStorage.mm; sourceTree = "<group>"; };
+		A79EDAA72D87FBA1006B5D10 /* RCTNativeJailbreakDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeJailbreakDetector.h; sourceTree = "<group>"; };
+		A79EDAA82D87FBA1006B5D10 /* RCTNativeJailbreakDetector.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNativeJailbreakDetector.mm; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -73,6 +76,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A79EDAA62D87FB7E006B5D10 /* NativeJailbreakDetector */,
 				A73E9E042D87EB0400236655 /* NativeLocalStorage */,
 				13B07FAE1A68108700A75B9A /* RNTurboModulesDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -100,6 +104,15 @@
 				A73E9E062D87EB4700236655 /* RCTNativeLocalStorage.mm */,
 			);
 			path = NativeLocalStorage;
+			sourceTree = "<group>";
+		};
+		A79EDAA62D87FB7E006B5D10 /* NativeJailbreakDetector */ = {
+			isa = PBXGroup;
+			children = (
+				A79EDAA72D87FBA1006B5D10 /* RCTNativeJailbreakDetector.h */,
+				A79EDAA82D87FBA1006B5D10 /* RCTNativeJailbreakDetector.mm */,
+			);
+			path = NativeJailbreakDetector;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -261,6 +274,7 @@
 			files = (
 				A73E9E072D87EB4700236655 /* RCTNativeLocalStorage.mm in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				A79EDAA92D87FBA1006B5D10 /* RCTNativeJailbreakDetector.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  RCTNativeLocalStorage.h
+//  RCTNativeJailbreakDetector.h
 //  RNTurboModulesDemo
 //
 //  Created by Rahul Nainwal on 17/03/25.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RCTNativeLocalStorage : NSObject <NativeLocalStorageSpec>
+@interface RCTNativeJailbreakDetector : NSObject <NativeJailbreakDetectorSpec>
 
 @end
 

@@ -14,9 +14,9 @@
     "react-native": "0.77.1"
   },
   "codegenConfig": {
-     "name": "NativeLocalStorageSpec",
-     "type": "modules",
-     "jsSrcsDir": "specs"
+      "name": "CustomTurboModulesSpec",
+      "type": "all",
+      "jsSrcsDir": "specs"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

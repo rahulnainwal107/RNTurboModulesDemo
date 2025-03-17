@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 
 import NativeLocalStorage from './specs/NativeLocalStorage';
+import JailbreakDetector from './specs/NativeJailbreakDetector';
 
 const EMPTY = '<empty>';
 
